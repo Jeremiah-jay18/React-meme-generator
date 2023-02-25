@@ -1,0 +1,68 @@
+*{
+  box-sizing:border-box
+}
+.wrapper{
+  margin:auto;
+  max-width: 35rem;
+  border:1px solid black
+}
+.wrapper .head{
+  background-color: rgb(117, 21, 117);
+  color:white;
+  display:flex;
+  justify-content: space-between;
+  padding:0 1.5rem
+}
+.wrapper .card-wrap{
+  padding:2rem 2rem
+}
+.wrapper .card-wrap .input-tags form{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.wrapper .card-wrap .input-tags input{
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  border: 1px solid #caa8a8;
+  width:48%
+}
+.wrapper .card-wrap #btn {
+  background-color:  rgb(117, 21, 117);
+  text-align: center;
+  border-radius: 0.3rem;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  padding: 0.5rem;
+  color:white;
+  font-size:1.3rem
+}
+
+.wrapper .image{
+  position: relative;
+  color:white;
+}
+.wrapper .image img{
+  width:100%;
+}
+.wrapper .image .top{
+  left:10%;
+  right: 10%;
+  position: absolute;
+  top:-3rem;
+  text-align: center;
+  word-break: break-all;
+  font-size: 3rem;
+}
+.wrapper .image .bottom{
+  position: absolute;
+  bottom:2rem;
+  text-align: center;
+  left:5%;
+  right: 2%;
+  word-break: break-all;
+  font-size: 3rem;
+  bottom:-3.5rem;
+}
